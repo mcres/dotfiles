@@ -1,0 +1,21 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": [],
+
+    // python config
+    "python.venvPath": "~/git/envs",
+    "snippets.ultisnips.directories": [
+        "UltiSnips",
+        "~/.config/nvim/utils/snips"
+    ],
+    
+    "diagnostic.checkCurrentLine": true,
+
+    // explorer
+    "explorer.width": 30,
+    "explorer.icon.enableNerdfont": false,
+    "explorer.previewAction.onHover": false,
+    "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+    }
+}
