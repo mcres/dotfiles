@@ -6,7 +6,6 @@ nnoremap <leader>v :wincmd v<CR>
 nnoremap <leader>s :wincmd s<CR>
 nnoremap <leader>q :wincmd q<CR>
 nnoremap <leader>u :UndotreeShow<CR>
-nnoremap <leader>nt :NERDTree <CR>
 nnoremap <leader>st :stop <CR>
 nnoremap <Leader>ps :Rg<SPACE>
 nnoremap <silent> <Leader>+ :vertical resize +5<CR>

@@ -17,10 +17,7 @@ Plug 'junegunn/gv.vim'
 Plug 'airblade/vim-gitgutter'
 
 " Vim nice initial screen
-Plug 'mhinz/vim-startify' 
-
-" Navigate through directories and files
-Plug 'preservim/nerdtree'
+Plug 'mhinz/vim-startify'
 
 " Buttom info bar
 Plug 'vim-airline/vim-airline'
