@@ -1,11 +1,9 @@
-let path = expand('%:p:h')
-
 " Vim settings
-exec 'source' path . '/plugins.vim'
-exec 'source' path . '/remaps.vim'
-exec 'source' path . '/settings.vim'
-exec 'source' path . '/variables.vim'
+source ~/git/dotfiles/vim/sources/plugins.vim
+source ~/git/dotfiles/vim/sources/remaps.vim
+source ~/git/dotfiles/vim/sources/settings.vim
+source ~/git/dotfiles/vim/sources/variables.vim
 
 " Pluggin settings
-exec 'source' path . '/plug_config/coc.vim'
-exec 'source' path . '/plug_config/signify.vim'
+source ~/git/dotfiles/vim/sources/plug_config/coc.vim
+source ~/git/dotfiles/vim/sources/plug_config/signify.vim
