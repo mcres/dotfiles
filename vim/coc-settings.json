@@ -11,11 +11,13 @@
     "diagnostic.checkCurrentLine": true,
 
     // explorer
-    "explorer.width": 30,
-    "explorer.icon.enableNerdfont": false,
+    "explorer.width": 40,
     "explorer.previewAction.onHover": false,
     "explorer.keyMappings.global": {
-    "<cr>": ["expandable?", "expand", "open"],
-    "v": "open:vsplit"
-    }
+        "j": ["expandable?", "expand", "open"],
+        "k": "nodeNext",
+        "l": "nodePrev",
+        ";": "collapse"
+    },
+    "explorer.debug": false
 }
