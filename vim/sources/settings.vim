@@ -35,3 +35,5 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 colorscheme gruvbox
 set background=dark
+
+set clipboard=unnamedplus
