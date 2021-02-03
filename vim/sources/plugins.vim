@@ -1,7 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 " Language Server Protocol
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim'
 
 " CoC dependency
 Plug 'jremmen/vim-ripgrep'
@@ -25,7 +25,11 @@ Plug 'vim-airline/vim-airline'
 " Fuzzy finder
 Plug 'ctrlpvim/ctrlp.vim'
 
-" Testing
+" Linting and fixing alongside CoC
 Plug 'dense-analysis/ale'
+
+" Testing
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
 
 call plug#end()

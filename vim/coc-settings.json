@@ -1,13 +1,26 @@
 {
+    "coc.preferences.formatOnType": false,
     "coc.preferences.formatOnSaveFiletypes": [],
-
+    "coc.preferences.enableMessageDialog": false,
     // python config
-    "python.venvPath": "~/git/envs",
+    "python.venvPath": "/home/mcres/git/envs",
+    "python.linting.flake8Enabled": false,
+    "python.linting.flake8Args": ["--max-line-length 120"],
+    "python.linting.pylint": false,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length=120"],
+    "python.formatting.blackPath": "/home/mcres/.local/bin/black",
+    "python.analysis.useLibraryCodeForTypes": false,
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticEnabled": false,
+    "python.linting.pydocstyleEnabled": false,
+    "diagnostic.displayByAle": true,
+
     "snippets.ultisnips.directories": [
         "UltiSnips",
         "~/.config/nvim/utils/snips"
     ],
-    
+
     "diagnostic.checkCurrentLine": true,
 
     // explorer

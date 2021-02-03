@@ -20,4 +20,7 @@ nmap <leader>gh :diffget //3<CR>
 nmap <leader>gu diffget //2<CR>
 nmap <leader>gs :G<CR>
 nnoremap <leader>prw :CocSearch <C-R>=expand("<cword>")<CR><CR>
-nnoremap <leader>sh : SignifyToggleHighlight<CR>
+nnoremap <leader>sh :SignifyToggleHighlight<CR>
+nnoremap <leader>ff :call CocAction('format')<CR>
+nnoremap <leader>hu :SignifyHunkUndo<CR>
+nnoremap <leader>hh :SignifyToggleHighlight<CR>
