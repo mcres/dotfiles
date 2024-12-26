@@ -1,0 +1,3 @@
+# Clears the clipboard associated with the middle bouse button only
+# This prevents Canva from text being pasted into the whiteboard when moving around
+echo -n | xclip -selection primary
